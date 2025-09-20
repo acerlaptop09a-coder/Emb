@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Design Vault</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(180deg, #ffd98e 0%, #fea965 100%);
+            min-height: 100vh;
+        }
+        .top-bar {
+            background: linear-gradient(90deg, #3fa9f5 0%, #3fa9f5 100%);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 18px;
+        }
+        .logo-circle {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            background: #fff;
+            border: 4px solid #222;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin-left: 12px;
+        }
+        .logo-circle img {
+            width: 85%;
+            height: auto;
+        }
+        .title {
+            font-family: 'Brush Script MT', cursive, Arial, sans-serif;
+            font-size: 1.4rem;
+            color: #222;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+        .main-content {
+            margin: 22px 12px 0 12px;
+            background: rgba(255,255,255,0.2);
+            border: 2px solid #222;
+            border-radius: 18px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.09);
+            padding: 18px 14px 80px 14px;
+            min-height: 70vh;
+            position: relative;
+        }
+        .main-content p {
+            font-size: 1.25rem;
+            color: #222;
+            font-weight: 700;
+            line-height: 1.35;
+            letter-spacing: 0.5px;
+            margin: 0;
+        }
+        .get-started-btn {
+            position: absolute;
+            left: 50%;
+            bottom: 22px;
+            transform: translateX(-50%);
+            display: inline-block;
+            background: #5946d2;
+            color: #fff;
+            border-radius: 18px;
+            font-size: 1.13rem;
+            font-weight: 700;
+            padding: 13px 26px;
+            text-decoration: none;
+            box-shadow: 0 2px 12px rgba(94, 70, 210, 0.10);
+            border: none;
+            transition: background 0.18s;
+        }
+        .get-started-btn:hover {
+            background: #452ab8;
+        }
+        /* Decorative leaves (simple SVGs for demonstration) */
+        .leaf-top, .leaf-bottom {
+            position: absolute;
+            pointer-events: none;
+        }
+        .leaf-top {
+            left: 0; top: 0;
+            width: 70px;
+            z-index: 1;
+        }
+        .leaf-bottom {
+            right: 0; bottom: 0;
+            width: 90px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <span class="title">Design Vault</span>
+        <div class="logo-circle">
+            <!-- Replace with your logo if needed -->
+            <img src="https://i.imgur.com/8Qf6VQJ.png" alt="Logo">
+        </div>
+    </div>
+    <div class="main-content">
+        <svg class="leaf-top" viewBox="0 0 64 64"><path fill="#3fa9f5" d="M0 0 Q32 32 64 0 Q32 16 0 0"/></svg>
+        <p>
+            ARE YOU LOOKING FOR THE BEST WEBSITE FOR FREE AND PAID EMBROIDERY DESIGNS? YOU CAN ALSO GET A CUSTOM DESIGN IN LESS TIME FOR A LOW PRICE OF UNDER 200RS. TRY NOW.
+        </p>
+        <svg class="leaf-bottom" viewBox="0 0 80 70"><path fill="#3fa9f5" d="M80 70 Q40 40 0 70 Q40 55 80 70"/></svg>
+        <a class="get-started-btn" href="https://file-flux-admin-03.lovable.app" target="_blank">
+            Get Started | Click Here
+        </a>
+    </div>
+</body>
+</html>
